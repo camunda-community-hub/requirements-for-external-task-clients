@@ -14,7 +14,7 @@ The following document list the requirements for an external task client for Cam
 
 |Feature|Must include|Optional| 
 |---|---|---|
-|Client object| [] URL Endpoint for the Camunda Engine <br> [] Worker ID | []Maximum number of tasks to work on from the Camunda Engine <br> [] Lock Duration of a task|
+|Client object| - [] URL Endpoint for the Camunda Engine <br> - [] Worker ID | - []Maximum number of tasks to work on from the Camunda Engine <br> - [] Lock Duration of a task <br> - [] Long polling <br> - [] Fetch task based on their priority <br> -[] Automatic polling <br> - []  Define interval for polling <br> [] - Create Readable WorkerID |
 
 
 
