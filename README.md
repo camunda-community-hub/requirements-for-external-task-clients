@@ -14,7 +14,7 @@ The following document list the requirements for an external task client for Cam
 
 |Feature|Must include|Optional| 
 |---|---|---|
-|Client object| - [ ] URL Endpoint for the Camunda Engine <br> - [ ] Worker ID | - [ ]Maximum number of tasks to work on from the Camunda Engine <br> [x] Lock Duration of a task <br> - [ ] Long polling <br> - [ ] Fetch task based on their priority <br> -[ ] Automatic polling <br> - [ ]  Define interval for polling <br> - [ ] Create Readable WorkerID |
+|Client object|:ballot_box_with_check: URL Endpoint for the Camunda Engine <br> :ballot_box_with_check: Worker ID | :ballot_box_with_check: Maximum number of tasks to work on from the Camunda Engine <br> :ballot_box_with_check: Lock Duration of a task <br>  :ballot_box_with_check: Long polling <br> :ballot_box_with_check: Fetch task based on their priority <br> :ballot_box_with_check: Automatic polling <br> :ballot_box_with_check: Define interval for polling <br> :ballot_box_with_check: Create Readable WorkerID |
 
 
 
