@@ -17,7 +17,12 @@ The following document list the requirements for an external task client for Cam
 |Client object|:white_medium_square: URL Endpoint for the Camunda Engine <br> :white_medium_square: Worker ID | :white_medium_square: Maximum number of tasks to work on from the Camunda Engine <br> :white_medium_square: Lock Duration of a task <br>  :white_medium_square: Long polling <br> :white_medium_square: Fetch task based on their priority <br> :white_medium_square: Automatic polling <br> :white_medium_square: Define interval for polling <br> :white_medium_square: Create Readable WorkerID |
 |Function / Methods |  
 |Fetch & Lock|:white_medium_square: Subscribe to a task topic, include the task topic <br> :white_medium_square: Implement Polling <br> :white_medium_square: Lock a task  <br> :white_medium_square: Allowing for multiple Fetch and Locks per client <br> | :white_medium_square: Lock Duration <br> :white_medium_square: Get back just local variables <br> :white_medium_square: Filtering task based on process properties: <br>  - :white_small_square: Variables <br> - :white_small_square: Business key <br> - :white_small_square: Process definition id <br> - :white_small_square: Process definition key <br> - :white_small_square: Process version <br> - :white_small_square: Tenant Id <br>|
-
+|Function / Methods after subscription|
+|Unsubscribe from Topic| | |
+|Stop Polling| | |
+|Function / Methods to handle a fetched task|
+|Handler| :white_medium_square: Get Process Variables <br> :white_medium_square: Set Process variables | |
+|Complete| :white_medium_square: fetched task  | :white_medium_square: Share variables <br> :white_medium_square: Share local variables   |
 
 
 
